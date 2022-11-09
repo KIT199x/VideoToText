@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code By KienNB</title>
+    <link rel="stylesheet" href="VideoToText.css">
+    <link rel="shortcut icon" href="https://localhost:44396/assets/images/favicon.ico" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+        <div id="container">
+            <div id="state0">
+                <div class="nav">
+                    <input class="input form-control" name="chonfile" type="file"  id="file" >
+                </div>
+                <p id="p1"> KIT <span></span></p>
+                <div id="video1" class="button1">
+                    <video  controls loop></video>
+                </div>
+                <div class="btn">
+                    <button id="play" class="btn btn-success"  type="button" onclick="play()">xem</button>
+                </div>
+            </div>
+        </div>
+        <div id="stage"></div>
+    </div>
+    <script src="VideoToText.js"></script>
+</body>
+</html>
